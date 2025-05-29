@@ -1,0 +1,836 @@
+/* CSS Document */
+
+body {
+    margin: 15px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, rgb(183, 183, 183), black);
+    color: white;
+}
+
+header {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+img {
+    border-radius: 50%;
+    margin: 25px 0 8px 0;
+    border: solid 2px white;
+    transition: 0.2s;
+}
+
+img:hover {
+    border: solid 2px gray;
+    transform: scale(1.1);
+}
+
+h1 {
+    font-size: 70px;
+    letter-spacing: 25px;
+    line-height: 10px;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    margin: 3px;
+}
+
+#about-me h2 {
+    font-size: 40px;
+}
+
+#about-me {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+}
+
+span {
+    background-color: rgb(255, 255, 92);
+    color: black;
+    letter-spacing: 2px;
+}
+
+#about-me p {
+    font-size: 15px;
+    text-align: center;
+    margin: 3px;
+    width: 700px;
+    position: relative;
+    left: 400px;
+}
+
+#skills h2 {
+    font-size: 40px;
+}
+
+#skills {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+}
+
+#skills ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+#job-titles h2 {
+    font-size: 40px;
+}
+
+#job-titles {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+}
+
+#job-titles ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+/* Responsive Design for Desktop with 1440px width */
+@media screen and (max-width: 1440px) {
+    body {
+        margin: 20px;
+        padding: 10px;
+        background: linear-gradient(to right, #232526, #414345, #232526);
+    }
+
+    header {
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        right: 0;
+        bottom: 0;
+        scale: 1;
+    }
+
+    img {
+    border-radius: 50%;
+    margin: 25px 0 8px 0;
+    border: solid 2px white;
+    transition: 0.2s;
+    }
+
+    img:hover {
+    border: solid 2px gray;
+    transform: scale(1.1);
+    }
+
+    h1 {
+    font-size: 70px;
+    letter-spacing: 25px;
+    line-height: 10px;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    }
+
+    p {
+    font-style: italic;
+    font-size: 17px;
+    text-align: center;
+    margin: 3px;
+    }
+
+    #about-me h2 {
+    font-size: 50px;
+    }
+
+    #about-me {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    right: 0px;   
+    }
+
+    span {
+    background-color: rgb(255, 255, 92);
+    color: black;
+    letter-spacing: 2px;
+    }
+
+    #about-me p {
+    font-size: 17px;
+    text-align: center;
+    margin: 3px;
+    width: 800px;
+    position: relative;
+    left: 270px;
+    }
+
+    #skills h2 {
+    font-size: 50px;
+    }
+
+    #skills {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    }
+
+    #skills ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    }
+
+    #job-titles h2 {
+    font-size: 40px;
+    }
+
+    #job-titles {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    }
+
+    #job-titles ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    }
+}
+
+/* Responsive Design for Desktop with 1024px width */
+@media screen and (max-width: 1024px) {
+    body {
+        margin: 20px;
+        padding: 10px;
+        background: linear-gradient(to right, #232526, #414345, #232526);
+        background-size: cover;
+    }
+
+    header {
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        right: 0;
+        left: 30px;
+        bottom: 0;
+        scale: 1;
+    }
+
+    img {
+    border-radius: 50%;
+    margin: 25px 0 8px 0;
+    border: solid 2px white;
+    transition: 0.2s;
+    }
+
+    img:hover {
+    border: solid 2px gray;
+    transform: scale(1.1);
+    }
+
+    h1 {
+    font-size: 70px;
+    letter-spacing: 25px;
+    line-height: 10px;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    }
+
+    p {
+    font-style: italic;
+    font-size: 17px;
+    text-align: center;
+    margin: 3px;
+    }
+
+    #about-me h2 {
+    font-size: 50px;
+    }
+
+    #about-me {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    right: 0px;
+    left: 20px;   
+    }
+
+    span {
+    background-color: rgb(255, 255, 92);
+    color: black;
+    letter-spacing: 2px;
+    }
+
+    #about-me p {
+    font-size: 15px;
+    text-align: center;
+    margin: 3px;
+    width: 800px;
+    position: relative;
+    left: 70px;
+    }
+
+    #skills h2 {
+    font-size: 50px;
+    }
+
+    #skills {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    left: 20px;
+    }
+
+    #skills ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    }
+
+    #job-titles h2 {
+    font-size: 40px;
+    }
+
+    #job-titles {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    left: 20px;
+    }
+
+    #job-titles ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    }
+}
+
+/* Responsive Design for Desktop with 768px width */
+@media screen and (max-width: 768px) {
+    body {
+        margin: 20px;
+        padding: 10px;
+        background: linear-gradient(to right, #232526, #414345, #232526);
+        background-size: cover;
+    }
+
+    header {
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        right: 0;
+        left: 40px;
+        bottom: 0;
+        scale: 0.8;
+    }
+
+    img {
+    border-radius: 50%;
+    margin: 25px 0 8px 0;
+    border: solid 2px white;
+    transition: 0.2s;
+    }
+
+    img:hover {
+    border: solid 2px gray;
+    transform: scale(1.1);
+    }
+
+    h1 {
+    font-size: 90px;
+    letter-spacing: 30px;
+    line-height: 15px;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    }
+
+    p {
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+    margin: 3px;
+    }
+
+    #about-me h2 {
+    font-size: 50px;
+    position: relative;
+    left: 0px;
+    }
+
+    #about-me {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    right: 0px;
+    left: 0px;   
+    }
+
+    span {
+    background-color: rgb(255, 255, 92);
+    color: black;
+    letter-spacing: 2px;
+    }
+
+    #about-me p {
+    font-size: 15px;
+    text-align: center;
+    margin: 3px;
+    width: 800px;
+    position: relative;
+    left: 30px;
+    }
+
+    #skills h2 {
+    font-size: 50px;
+    }
+
+    #skills {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    left: 20px;
+    }
+
+    #skills ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    }
+
+    #job-titles h2 {
+    font-size: 40px;
+    }
+
+    #job-titles {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    left: 30px;
+    }
+
+    #job-titles ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    }
+}
+
+/* Responsive Design for Desktop with 425px width */
+@media screen and (max-width: 425px) {
+    body {
+        margin: 20px;
+        padding: 10px;
+        background: linear-gradient(to right, #232526, #414345, #232526);
+        background-size: cover;
+    }
+
+    header {
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        right: 0;
+        left: 0;
+        bottom: 100px;
+        scale: 0.6;
+    }
+
+    img {
+    border-radius: 50%;
+    margin: 25px 0 8px 0;
+    border: solid 2px white;
+    transition: 0.2s;
+    }
+
+    img:hover {
+    border: solid 2px gray;
+    transform: scale(1.1);
+    }
+
+    h1 {
+    font-size: 90px;
+    letter-spacing: 25px;
+    line-height: 15px;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    position: relative;
+    right: 35px;
+    }
+
+    p {
+    font-style: italic;
+    font-size: 19px;
+    text-align: center;
+    margin: 3px;
+    width: 400px;
+    position: relative;
+    right: 35px;
+    }
+
+    #about-me h2 {
+    font-size: 50px;
+    position: relative;
+    left: 0px;
+    }
+
+    #about-me {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    right: 0px;
+    left: 20px;
+    bottom: 160px;   
+    }
+
+    span {
+    background-color: rgb(255, 255, 92);
+    color: black;
+    letter-spacing: 2px;
+    }
+
+    #about-me p {
+    font-size: 15px;
+    text-align: center;
+    margin: 3px;
+    width: 300px;
+    position: relative;
+    left: 30px;
+    }
+
+    hr {
+    position: relative;
+    bottom: 150px;
+    }
+
+    #skills h2 {
+    font-size: 50px;
+    }
+
+    #skills {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 150px;
+    }
+
+    #skills ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    position: relative;
+    right: 15px;
+    }
+
+    #job-titles h2 {
+    font-size: 40px;
+    }
+
+    #job-titles {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    left: 0px;
+    bottom: 150px;
+    }
+
+    #job-titles ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    }
+}
+
+/* Responsive Design for Desktop with 375px width */
+@media screen and (max-width: 375px) {
+    body {
+        margin: 20px;
+        padding: 10px;
+        background: linear-gradient(to right, #232526, #414345, #232526);
+        background-size: cover;
+    }
+
+    header {
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        right: 0;
+        left: 0;
+        bottom: 100px;
+        scale: 0.6;
+    }
+
+    img {
+    border-radius: 50%;
+    margin: 25px 0 8px 0;
+    border: solid 2px white;
+    transition: 0.2s;
+    }
+
+    img:hover {
+    border: solid 2px gray;
+    transform: scale(1.1);
+    }
+
+    h1 {
+    font-size: 90px;
+    letter-spacing: 25px;
+    line-height: 15px;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    position: relative;
+    right: 35px;
+    }
+
+    p {
+    font-style: italic;
+    font-size: 19px;
+    text-align: center;
+    margin: 3px;
+    width: 400px;
+    position: relative;
+    right: 35px;
+    }
+
+    #about-me h2 {
+    font-size: 50px;
+    position: relative;
+    left: 0px;
+    }
+
+    #about-me {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    right: 0px;
+    left: 20px;
+    bottom: 160px;   
+    }
+
+    span {
+    background-color: rgb(255, 255, 92);
+    color: black;
+    letter-spacing: 2px;
+    }
+
+    #about-me p {
+    font-size: 15px;
+    text-align: center;
+    margin: 3px;
+    width: 250px;
+    position: relative;
+    left: 30px;
+    }
+
+    hr {
+    position: relative;
+    bottom: 150px;
+    }
+
+    #skills h2 {
+    font-size: 50px;
+    }
+
+    #skills {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 150px;
+    }
+
+    #skills ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    position: relative;
+    right: 15px;
+    }
+
+    #job-titles h2 {
+    font-size: 40px;
+    }
+
+    #job-titles {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    left: 0px;
+    bottom: 150px;
+    }
+
+    #job-titles ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    }
+}
+
+/* Responsive Design for Desktop with 320px width */
+@media screen and (max-width: 320px) {
+    body {
+        margin: 20px;
+        padding: 10px;
+        background: linear-gradient(to right, #232526, #414345, #232526);
+        background-size: cover;
+    }
+
+    header {
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        right: 0;
+        left: 0;
+        bottom: 120px;
+        scale: 0.5;
+    }
+
+    img {
+    border-radius: 50%;
+    margin: 25px 0 8px 0;
+    border: solid 2px white;
+    transition: 0.2s;
+    position: relative;
+    right: 40px;
+    }
+
+    img:hover {
+    border: solid 2px gray;
+    transform: scale(1.1);
+    }
+
+    h1 {
+    font-size: 90px;
+    letter-spacing: 25px;
+    line-height: 15px;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    position: relative;
+    right: 70px;
+    }
+
+    p {
+    font-style: italic;
+    font-size: 19px;
+    text-align: center;
+    margin: 3px;
+    width: 400px;
+    position: relative;
+    right: 70px;
+    }
+
+    #about-me h2 {
+    font-size: 35px;
+    position: relative;
+    left: 0px;
+    }
+
+    #about-me {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    right: 0px;
+    left: 13px;
+    bottom: 250px;   
+    }
+
+    span {
+    background-color: rgb(255, 255, 92);
+    color: black;
+    letter-spacing: 2px;
+    }
+
+    #about-me p {
+    font-size: 15px;
+    text-align: center;
+    margin: 3px;
+    width: 200px;
+    position: relative;
+    left: 30px;
+    }
+
+    hr {
+    position: relative;
+    bottom: 230px;
+    }
+
+    #skills h2 {
+    font-size: 35px;
+    }
+
+    #skills {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    left: 10px;
+    right: 0;
+    bottom: 230px;
+    }
+
+    #skills ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    position: relative;
+    right: 15px;
+    }
+
+    #job-titles h2 {
+    font-size: 35px;
+    }
+
+    #job-titles {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    left: 0px;
+    bottom: 230px;
+    }
+
+    #job-titles ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    }
+}
